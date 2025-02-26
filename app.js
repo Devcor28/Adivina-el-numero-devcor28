@@ -1,8 +1,8 @@
-var numeroAzar = Math.floor(Math.random() * 100) + 1;
+let numeroAzar = Math.floor(Math.random() * 100) + 1;
 const numeroEntrada = document.getElementById('numeroEntrada'); 
 const mensaje = document.getElementById('mensaje');
 const contador = document.getElementById('contador');
-var intentos = 0;
+let intentos = 0;
 const btnRestablecer = document.getElementById('btnRestablecer');
 
 
